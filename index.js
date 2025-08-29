@@ -32,6 +32,11 @@ function exponente(base, exp) {
   return Math.pow(base, exp);
 }
 
+function raizCuadrada(num) {
+  if (num < 0) return "Error: no existe raíz cuadrada real para negativos";
+  return Math.sqrt(num);
+}
+
 
 
 
