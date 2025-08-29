@@ -18,6 +18,17 @@ function dividir(num1, num2) {
   return num1 / num2;
 }
 
+function factorial(num) {
+  if (num < 0) return "Error: factorial no definido para negativos";
+  if (num === 0 || num === 1) return 1;
+  let resultado = 1;
+  for (let i = 2; i <= num; i++) {
+    resultado *= i;
+  }
+  return resultado;
+}
+
+
 
 
 
