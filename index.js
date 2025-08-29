@@ -28,6 +28,11 @@ function factorial(num) {
   return resultado;
 }
 
+function exponente(base, exp) {
+  return Math.pow(base, exp);
+}
+
+
 
 
 
